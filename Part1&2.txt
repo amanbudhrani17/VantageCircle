@@ -1,0 +1,17 @@
+Part 1 :- A client submits a request to a server in request-response communication, and the server responds by sending the client a response. The server uses the information from the request, such as the desired resource or action, to create the proper response, which is then delivered back to the client. The Hypertext Transfer Protocol (HTTP) is frequently used for this operation, and both client and server side tools or frameworks can make it easier.
+
+Pseudo Code for Part2 :-
+int[] part2(int[] arr, int value){
+    Sort(arr)
+    low=0
+    high=arr.length-1
+    while(low<high){
+        if(arr[low]+arr[high] == value)
+            return {arr[low],arr[high]}
+        else if(arr[low]+arr[high] < value)
+            low++
+        else
+            high--
+    }
+    return {-1,-1}
+}
