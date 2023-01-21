@@ -1,4 +1,4 @@
-# VantageCircle
+# Assignment Description
 
 Part 1 and 2 are combined in the file part1&2.txt
 
